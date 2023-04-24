@@ -63,7 +63,7 @@ std::error_code print(const std::string& str)
   return success;
 }
 
-void print_prompt(int last_command_status) // imprimir el prompt de la shell
+void print_prompt(int last_command_status) // Print the prompt of the shell
 {
   char machine_pointer[100];
   size_t length = 100;
